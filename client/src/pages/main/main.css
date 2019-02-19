@@ -1,0 +1,208 @@
+.header-info-buscador input{
+    height: 100%;
+    border-style: solid;
+    border-width: 0.02px;
+    border-color: #f5f0f0;
+    color: #828282;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-lugarAbuscar{
+    width: 50%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left: 5%;
+    vertical-align: top;
+}
+
+.header-fechaAbuscar{
+    width: 25%;
+    padding-left: 2%;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.header-huespedAbuscar{
+    width: 25%;
+    border-right: 9px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-left: 2%;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.header-botonAbuscar{
+    width: 8%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #FF5A5F;
+    height: 100%;
+    border-radius: 9px;
+    border-style: none;
+    box-shadow: 0 12px 26px rgba(0,0,0,0.65);
+}
+
+.contenedor-general{
+    /* background-color: whitesmoke; */
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    overflow: auto;
+}
+
+.gridBint1{
+    background-color: #d7d7ff;
+    width: 204px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    margin-right: 16px;
+    background-image: linear-gradient(#ffffff, #505050c9);
+}
+
+.carrousel-imagen{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 1%;
+    mix-blend-mode: multiply;
+}
+
+.carrousel-texto{
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    /* padding: 5%; */
+    font-size: 85%;
+    font-weight: 600;
+    width: -42%;
+    /* height: 50%; */
+    text-align: center;
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* vertical-align: middle; */
+    letter-spacing: 0.5px;
+}
+
+.carrousel-texto-precio{
+    font-weight: 100;
+    font-size: 14px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.carrousel-texto-ciudad{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 19px;
+}
+
+.gridB-carrousel{
+    display: inline-flex;
+    transition: transform 2s cubic-bezier(0, 0.68, 0, 1.19) 0s;
+    
+}
+
+.row-gridB{
+    height: 250px;
+    overflow: hidden;
+}
+
+.arrow-next{
+    position: absolute;
+    overflow: visible !important;
+    left: 97%;
+    background-color: white;
+    width: 47px;
+    height: 46px;
+    top: 151px;
+    text-align: center;
+    border-radius: 46px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: 3px 1px #a7a7a721;
+}
+
+.gridB{
+    position: relative;
+    width: 98%;
+    margin-bottom: 6%;
+}
+
+.gridC{
+    padding-bottom: 5%;
+}
+
+.gridCint1{
+    width: 246px;
+    height: 258px;
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 15px;
+}
+
+.grupos-alojamiento-imagen{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.grupos-alojamiento-titulo{
+    font-size: 12px;
+    display: block;
+    padding-top: 8px;
+    margin: 0;
+    color: #4c4c4c;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.grupos-alojamiento-descripcion{
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.grupos-alojamiento-rating{
+    font-size: 12px;
+    display: block;
+    margin: 0;
+    letter-spacing: 0.5px;
+    padding-top: 2px;
+}
+
+.grupos-alojamiento-vermas{
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color:#008489;
+}
+
+.loader{
+    background-color: #008489;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    margin:auto;
+    display: inline-flex;
+    margin-right: 4px;
+    opacity: 1;
+    animation: loader 0.8s infinite;
+}
+@keyframes loader {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+h4{
+    width: 10%;
+    margin:auto;
+    height: 30px;
+    padding: 0;
+}
