@@ -16,6 +16,7 @@
 
 .nav-link{
     color:white;
+    padding-bottom: 29px;
 }
 
 .header-row{
@@ -52,14 +53,23 @@
     mix-blend-mode: overlay;
 }
 
+a:hover{
+    color:white;
+    border-bottom: 3px solid white;
+}
+
 .brand{
     position: relative;
     z-index: 46;
 }
 
 .brand-img{
-    width: 68px;
+    margin-top: 21px;
+    width: 122px;
     height: 50px;
+    margin-left: 15px;
+    position: absolute;
+    clip: rect(0px,43px,200px,0px);
 }
 
 .header-info{
@@ -68,7 +78,7 @@
     z-index: 50;
     margin: 0 auto;
     text-align: center;
-    top: 98px;
+    top: 200px;
 }
 
 .header-info-buscador{

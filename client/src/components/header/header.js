@@ -10,7 +10,7 @@ function Header(props) {
         </div>
         <div className="col-md-12 contenedor-header-textos">
             <div className="row brand">
-                <img className="brand-img" src="https://banner2.kisspng.com/20180404/xwe/kisspng-le-case-del-borgantico-apartment-airbnb-renting-im-logo-5ac51890bd2641.9030904215228663207748.jpg" alt="logo"/>
+                <img className="brand-img" src="https://press.airbnb.com/wp-content/uploads/sites/4/2017/01/airbnb_horizontal_lockup_white_web.png?fit=2945%2C1321" alt="logo"/>
             </div>
             <div className="row navegacion">
                 <ul className="nav">

@@ -110,7 +110,7 @@ class Main extends Component {
                 {this.state.estancias.filter((resultado) => resultado.pais === "Tokio")
                 .map(resultado=>(        
                     <div className="gridCint1">
-                        <img className="grupos-alojamiento-imagen" src={resultado.image} alt="alojamientos-especificos"/> 
+                        <img className="grupos-alojamiento-imagen" src={resultado.image} alt="alojamientos-especificos" data-key={resultado.key}/> 
                         <p className="grupos-alojamiento-titulo">{resultado.title} · {resultado.ciudad}</p>
                         <p className="grupos-alojamiento-descripcion">{resultado.description}</p>
                         <p className="grupos-alojamiento-rating">
