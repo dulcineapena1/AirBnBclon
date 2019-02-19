@@ -26,9 +26,8 @@ app.use(allowCrossDomain)
 
 // Connect to the Mongo DB
 mongoose.connect(
-   process.env.MONGODB_URI || "mongodb://localhost/airbnb"
-  // "mongodb://localhost/googlebooks" "mongodb://heroku_bdxrjgk7:sksm78ftb83vst8vco6ulala94@ds157574.mlab.com:57574/heroku_bdxrjgk7"
-  
+   process.env.MONGODB_URI || "heroku_pp964t26:alnkda4dng4sg103g053p2hdjt@ds341825.mlab.com:41825/heroku_pp964t26"
+   //"mongodb://localhost/airbnb"
 );
 
 

@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const db = require("../models");
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/airbnb"
+  process.env.MONGODB_URI ||"heroku_pp964t26:alnkda4dng4sg103g053p2hdjt@ds341825.mlab.com:41825/heroku_pp964t26"
+  //"mongodb://localhost/airbnb"
 );
 
 const alojamientoSeed = [
